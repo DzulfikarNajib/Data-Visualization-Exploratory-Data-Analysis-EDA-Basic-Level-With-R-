@@ -34,14 +34,14 @@ library(shadowtext)
 library(lubridate)
 library(scales)
 
-path1 <- "C:/Users/Hype AMD/OneDrive - apps.ipb.ac.id/A UP MY HARD SKILL/IPB/Matakuliaih/Semester 4/Visualisasi Data/Pertemuan 3/Test.csv"
+path1 <- ".../Test.csv"
 data1 <- read.csv(path1, sep=",") # Pakai path1, bukan path
 
 
-path2 <- "C:/Users/Hype AMD/OneDrive - apps.ipb.ac.id/A UP MY HARD SKILL/IPB/Matakuliaih/Semester 4/Visualisasi Data/Pertemuan 3/SampleSuperStore.csv"
+path2 <- ".../SampleSuperStore.csv"
 data2 <- read.csv(path2, sep=",")
 
-path3 <- "C:/Users/Hype AMD/OneDrive - apps.ipb.ac.id/A UP MY HARD SKILL/IPB/Matakuliaih/Semester 4/Visualisasi Data/Pertemuan 3/Sample - Superstore.csv"
+path3 <- ".../Sample - Superstore.csv"
 data3 <- read.csv(path3, sep=",", check.names = FALSE)
 ```
 ## **NASTED DONUT CHART (Profession berdasarkan segmentation)**
@@ -363,5 +363,6 @@ ggplot(data_monthly, aes(x = Month_Year, y = Total_Sales)) +
 - Jualan Ramai di Akhir Tahun. Grafiknya selalu naik tinggi pas mau ganti tahun (bulan September sampai Desember). Kayaknya ini karena banyak promo akhir tahun atau orang-orang lagi belanja buat liburan.
 - Namun, Pada awal Tahun terlihat Sepi. Tiap masuk bulan Januari atau Februari, grafiknya turun drastis. Ini wajar sih, mungkin karena orang-orang baru habis keluar duit banyak di akhir tahun, jadi awal tahun jualan agak lesu.
 - Kalau dilihat dari tahun pertama (2014) sampai tahun terakhir (2017), puncak grafiknya makin lama makin tinggi. Artinya, toko ini penjualannya makin berkembang tiap tahun, nggak jalan di tempat.
+
 
 *Kesimpulan: Toko ini punya pola penjualan yang sangat musiman, dengan puncak di akhir tahun dan penurunan di awal tahun. Strategi pemasaran yang fokus pada promo akhir tahun bisa sangat efektif, sementara untuk mengatasi penurunan di awal tahun, mungkin bisa dipertimbangkan untuk mengadakan promo khusus atau memperkenalkan produk baru untuk menarik pelanggan.*
