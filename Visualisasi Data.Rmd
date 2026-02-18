@@ -1,6 +1,6 @@
 ---
-title: "Tugas Visualisasi Data Pertemuan 3"
-author: "Dzulfikar Najib_M0401241043"
+title: "Data Visualization & Exploratory Data Analysis (EDA) – Basic Level"
+author: "Dzulfikar Najib"
 date: "2026-02-17"
 output: 
   html_document:
@@ -10,10 +10,8 @@ output:
     theme: cosmo
 ---
 # **INFORMASI UMUM**
-- **Nama**: Dzulfikar Najib
-- **NIM**: M0401241043
-- **Kelas**: M0401 - Visualisasi Data
-- **Judul Tugas**: Tugas Visualisasi Data Pertemuan 3
+- **Data Visualization**
+- **Visual Interpretation**
 - **Dataset yang Digunakan**: **Data1**=Test.csv (untuk visualisasi proporsi dan visualisasi hubungan antar peubah numerik), **Data2**=SampleSuperStore.csv (untuk visualisasi hubungan antar peubah numerik), dan **Data3**=Sample - Superstore.csv (untuk visualisasi deret waktu)
 - **Sumber Dataset**: Kaggle 
 - (Data1:https://www.kaggle.com/datasets/kaushiksuresh147/customer-segmentation)
@@ -366,3 +364,4 @@ ggplot(data_monthly, aes(x = Month_Year, y = Total_Sales)) +
 
 
 *Kesimpulan: Toko ini punya pola penjualan yang sangat musiman, dengan puncak di akhir tahun dan penurunan di awal tahun. Strategi pemasaran yang fokus pada promo akhir tahun bisa sangat efektif, sementara untuk mengatasi penurunan di awal tahun, mungkin bisa dipertimbangkan untuk mengadakan promo khusus atau memperkenalkan produk baru untuk menarik pelanggan.*
+
