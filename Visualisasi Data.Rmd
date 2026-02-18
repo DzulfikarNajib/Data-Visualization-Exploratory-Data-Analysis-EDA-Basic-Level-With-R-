@@ -1,5 +1,5 @@
 ---
-title: "Data Visualization & Exploratory Data Analysis (EDA) – Basic Level"
+title: "Data Visualization and Exploratory Data Analysis (EDA) Basic Level"
 author: "Dzulfikar Najib"
 date: "2026-02-17"
 output: 
@@ -364,4 +364,5 @@ ggplot(data_monthly, aes(x = Month_Year, y = Total_Sales)) +
 
 
 *Kesimpulan: Toko ini punya pola penjualan yang sangat musiman, dengan puncak di akhir tahun dan penurunan di awal tahun. Strategi pemasaran yang fokus pada promo akhir tahun bisa sangat efektif, sementara untuk mengatasi penurunan di awal tahun, mungkin bisa dipertimbangkan untuk mengadakan promo khusus atau memperkenalkan produk baru untuk menarik pelanggan.*
+
 
